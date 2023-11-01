@@ -1,15 +1,15 @@
-import Card from "./Components/Card";
-
+import PetForm from './Components/PetForm';
+import './styles/styles.css';
 
 function App() {
-
-
-return (
-<div className="App">
-<h1>Carga de estudiantes</h1>
-<form></form>
-<Card />
-</div>
-);
+  return (
+    <div className="app-container">
+      <h1 className="form-title">Formulario de mascotas</h1> 
+      <div className="center-content"> 
+        <PetForm />
+      </div>
+    </div>
+  );
 }
+
 export default App;
